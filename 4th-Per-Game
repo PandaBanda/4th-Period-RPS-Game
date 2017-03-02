@@ -1,0 +1,6 @@
+import java.util.*;
+public interface Player
+{
+    public String move(List <String> myMoves, List <String> opponentMoves, int myScore, int opponentScore);
+    public String getName();
+}
